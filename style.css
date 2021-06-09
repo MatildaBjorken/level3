@@ -97,7 +97,7 @@ img {
 }
 
 .next-link{
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -107,6 +107,22 @@ img {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+p{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 2em;
+    padding: 1em;
+    display: flex;
+    display: -webkit-box;
+    display: flex;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255); 
 }
 
 .money {
